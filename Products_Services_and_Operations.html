@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products, Services & Operations</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.2em;
+            font-weight: 300;
+        }
+        .content {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h2 {
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #667eea;
+            margin-top: 25px;
+        }
+        .meta {
+            background: #f0f0f0;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        .meta h4 {
+            margin: 0 0 10px 0;
+            color: #333;
+        }
+        .meta ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .highlight {
+            background: #e8f5e8;
+            border: 1px solid #4caf50;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .highlight h4 {
+            margin: 0 0 10px 0;
+            color: #2e7d32;
+        }
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .service-card {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .service-card h4 {
+            margin: 0 0 10px 0;
+            color: #667eea;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #dee2e6;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background: #667eea;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 25px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .back-link {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            transition: background 0.2s;
+        }
+        .back-link:hover {
+            background: #5a6fd8;
+        }
+        .action-items {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .action-items h4 {
+            margin: 0 0 10px 0;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Back to Index</a>
+    
+    <div class="header">
+        <h1>Products, Services & Operations</h1>
+    </div>
+
+    <div class="content">
+        <div class="meta">
+            <h4>Document Information</h4>
+            <ul>
+                <li><strong>Version:</strong> 1.0</li>
+                <li><strong>Date:</strong> 2025-01-27</li>
+                <li><strong>Author:</strong> Chad Johnson</li>
+                <li><strong>Assumptions:</strong> Year-round operations, 150-250 acre facility, Dual business model (venue + events)</li>
+            </ul>
+        </div>
+
+        <h2>Core Products and Services</h2>
+
+        <div class="service-grid">
+            <div class="service-card">
+                <h4>🏨 Hotel-Style Lodging</h4>
+                <p><strong>Capacity:</strong> 50 guest rooms, lodge-style</p>
+                <p><strong>Features:</strong> Two queen beds per room (king option available)</p>
+                <p><strong>Amenities:</strong> Private bathrooms, showers, Wi-Fi, iron, ironing board</p>
+                <p><strong>Target Market:</strong> Adult groups, families, corporate retreats</p>
+            </div>
+
+            <div class="service-card">
+                <h4>🏠 Dormitory-Style Lodging</h4>
+                <p><strong>Capacity:</strong> 30 dorm rooms with private baths</p>
+                <p><strong>Layout:</strong> Two sets of bunk beds per room</p>
+                <p><strong>Features:</strong> Shared central lobby, linens/towels provided</p>
+                <p><strong>Target Market:</strong> Large youth groups, budget corporate retreats</p>
+            </div>
+
+            <div class="service-card">
+                <h4>🏡 Cottage/Camp-Style Lodging</h4>
+                <p><strong>Capacity:</strong> 5 cottages, 14 guests each</p>
+                <p><strong>Layout:</strong> 6 bunk beds + 2 twin beds per cottage</p>
+                <p><strong>Features:</strong> Shared bathhouses, outdoor gathering spaces</p>
+                <p><strong>Target Market:</strong> Youth groups, retreats, camp-style experiences</p>
+            </div>
+
+            <div class="service-card">
+                <h4>⛺ Camping Options</h4>
+                <p><strong>Tent Sites:</strong> 20+ sites with fire rings, BBQ pits, picnic tables, electric hookups</p>
+                <p><strong>RV Sites:</strong> 10+ spots with concrete pads and utilities</p>
+                <p><strong>Target Market:</strong> Budget groups, families, extended stays</p>
+            </div>
+        </div>
+
+        <h2>Event and Meeting Services</h2>
+
+        <h3>Large Event Spaces</h3>
+        <ul>
+            <li><strong>Multipurpose Hall/Auditorium:</strong> 300 seats, divisible sections, screens, A/V</li>
+            <li><strong>Outdoor Pavilion:</strong> 200 capacity with lake/scenic views</li>
+            <li><strong>Outdoor Amphitheater:</strong> 100 capacity with lake/scenic views</li>
+            <li><strong>Outdoor Chapel:</strong> 200 capacity, nature-surrounded</li>
+        </ul>
+
+        <h3>Conference Facilities</h3>
+        <ul>
+            <li><strong>Mid-sized Rooms:</strong> 50-150 capacity, flexible layouts</li>
+            <li><strong>Small Seminar Rooms:</strong> 10-40 capacity, divisible</li>
+            <li><strong>Board Room:</strong> 15-20 seats with touchscreen presentation tech</li>
+            <li><strong>Breakout Rooms:</strong> 8-12 people standard conference rooms</li>
+        </ul>
+
+        <h3>Specialty Venues</h3>
+        <ul>
+            <li><strong>Theater Room:</strong> 50-75 seats with writing desks and A/V</li>
+            <li><strong>Hospitality Lounge:</strong> Kitchenette, lake/forest views</li>
+            <li><strong>Campfire Sites:</strong> Multiple locations for group gatherings</li>
+        </ul>
+
+        <h2>Recreational Services</h2>
+
+        <h3>Sports Facilities</h3>
+        <ul>
+            <li><strong>Field Sports:</strong> Football/soccer field, 2 baseball fields</li>
+            <li><strong>Court Sports:</strong> 4 volleyball courts, 8 tennis/pickleball courts</li>
+            <li><strong>Basketball:</strong> 4 half-court/2 full-court, indoor gym</li>
+            <li><strong>Indoor Basketball:</strong> Full court facility</li>
+        </ul>
+
+        <h3>Aquatic Facilities</h3>
+        <ul>
+            <li><strong>Pools:</strong> Square lap pool, fun pool with features</li>
+            <li><strong>Natural Water:</strong> Swimming lake/pond with pier, sandy shore</li>
+            <li><strong>Water Sports:</strong> Canoe storage, rowing practice area</li>
+            <li><strong>Amenities:</strong> Pool bathrooms, water stations</li>
+        </ul>
+
+        <h3>Adventure Activities</h3>
+        <ul>
+            <li><strong>Ropes Course:</strong> High and low elements</li>
+            <li><strong>Climbing Wall:</strong> Indoor/outdoor options</li>
+            <li><strong>Archery Range:</strong> Target practice facility</li>
+            <li><strong>Mini Golf:</strong> 18-hole course</li>
+            <li><strong>Playground:</strong> Age-appropriate equipment</li>
+        </ul>
+
+        <h3>Signature Features</h3>
+        <div class="highlight">
+            <h4>5K Running Trail</h4>
+            <ul>
+                <li><strong>Design:</strong> 3.1-mile looped course</li>
+                <li><strong>Surface:</strong> Paved or crushed rock (not natural)</li>
+                <li><strong>Features:</strong> Water stops, outlooks, hidden locations</li>
+                <li><strong>Integration:</strong> Weaves through property, connects with other amenities</li>
+                <li><strong>Public Use:</strong> Open to community with lighting and water stops</li>
+            </ul>
+        </div>
+
+        <h2>Food and Beverage Services</h2>
+
+        <h3>Dining Facilities</h3>
+        <ul>
+            <li><strong>Food Hall:</strong> Central dining area</li>
+            <li><strong>Kitchen:</strong> Full-service with outdoor BBQ slab</li>
+            <li><strong>Catering:</strong> Event-specific meal services</li>
+            <li><strong>Microbrewery:</strong> Potential run club integration</li>
+        </ul>
+
+        <h3>Service Options</h3>
+        <ul>
+            <li><strong>Group Meals:</strong> Camp-style dining experiences</li>
+            <li><strong>Corporate Catering:</strong> Professional event meals</li>
+            <li><strong>Wedding Catering:</strong> Full-service wedding packages</li>
+            <li><strong>Concession Services:</strong> Event-specific food and beverage</li>
+        </ul>
+
+        <h2>Event Management Services</h2>
+
+        <h3>Turn-Key Solutions</h3>
+        <ul>
+            <li><strong>Wedding Planning:</strong> Complete wedding packages</li>
+            <li><strong>Corporate Events:</strong> Team-building and retreat planning</li>
+            <li><strong>Micro-Conventions:</strong> Full convention management</li>
+            <li><strong>Camp Programs:</strong> Youth camp organization and staffing</li>
+        </ul>
+
+        <h3>Additional Services</h3>
+        <ul>
+            <li><strong>Transportation:</strong> Golf cart shuttles, group transportation</li>
+            <li><strong>Activity Facilitation:</strong> Guided team-building sessions</li>
+            <li><strong>Equipment Rental:</strong> Sports equipment, AV gear</li>
+            <li><strong>Staffing:</strong> Event staff, counselors, activity leaders</li>
+        </ul>
+
+        <h2>Operational Structure</h2>
+
+        <h3>Daily Operations</h3>
+
+        <h4>Year-Round Staff</h4>
+        <ul>
+            <li><strong>Management Team:</strong> COO, Events Director, Marketing Director</li>
+            <li><strong>Operations Staff:</strong> Grounds keeper, culinary director, camp director</li>
+            <li><strong>Support Staff:</strong> Accountant/finance, wedding director, sponsorship director</li>
+        </ul>
+
+        <h4>Seasonal Staff</h4>
+        <ul>
+            <li><strong>Camp Counselors:</strong> Summer youth programs</li>
+            <li><strong>Event Staff:</strong> Seasonal event support</li>
+            <li><strong>Volunteers:</strong> Community engagement programs</li>
+        </ul>
+
+        <h4>Brewery Operations (If Implemented)</h4>
+        <ul>
+            <li><strong>Separate Staffing:</strong> Dedicated brewery management</li>
+            <li><strong>Run Club Integration:</strong> Weekly community events</li>
+            <li><strong>Event Support:</strong> After-hours event services</li>
+        </ul>
+
+        <h3>Seasonal Operations</h3>
+
+        <h4>Summer (June-August)</h4>
+        <ul>
+            <li><strong>Primary Focus:</strong> Youth camps and sports programs</li>
+            <li><strong>Staffing:</strong> Peak counselor and activity staff</li>
+            <li><strong>Facilities:</strong> Full recreational amenities in use</li>
+            <li><strong>Revenue:</strong> Camp fees, accommodation, activities</li>
+        </ul>
+
+        <h4>Spring/Fall/Winter</h4>
+        <ul>
+            <li><strong>Primary Focus:</strong> Corporate events, weddings, conventions</li>
+            <li><strong>Staffing:</strong> Event management and hospitality focus</li>
+            <li><strong>Facilities:</strong> Meeting spaces and accommodations</li>
+            <li><strong>Revenue:</strong> Event rentals, catering, accommodation</li>
+        </ul>
+
+        <h4>Year-Round</h4>
+        <ul>
+            <li><strong>Public Events:</strong> Run clubs, brewery, community programs</li>
+            <li><strong>Maintenance:</strong> Facility upkeep and improvements</li>
+            <li><strong>Marketing:</strong> Ongoing promotion and partnership development</li>
+        </ul>
+
+        <h2>Service Quality Standards</h2>
+
+        <h3>Facility Standards</h3>
+        <ul>
+            <li><strong>Building Quality:</strong> Higher than typical "camp" facilities</li>
+            <li><strong>Climate Control:</strong> Insulated walls, AC/heat pumps (Florida requirements)</li>
+            <li><strong>Corporate Appeal:</strong> Fit-and-finish suitable for business clients</li>
+            <li><strong>Accessibility:</strong> ADA-compliant features throughout</li>
+        </ul>
+
+        <h3>Service Standards</h3>
+        <ul>
+            <li><strong>Professional Service:</strong> Corporate-grade hospitality</li>
+            <li><strong>Camp Experience:</strong> Authentic outdoor adventure feel</li>
+            <li><strong>Flexibility:</strong> Accommodate various group needs and budgets</li>
+            <li><strong>Community Focus:</strong> Support local businesses and partnerships</li>
+        </ul>
+
+        <h2>Technology Requirements</h2>
+
+        <h3>Guest Management</h3>
+        <ul>
+            <li><strong>Reservation System:</strong> Airbnb-style booking platform</li>
+            <li><strong>Key Management:</strong> Wristband system for water activities</li>
+            <li><strong>Guest Services:</strong> Mobile app for facility information</li>
+            <li><strong>Payment Processing:</strong> Multiple payment options</li>
+        </ul>
+
+        <h3>Operations Management</h3>
+        <ul>
+            <li><strong>Event Planning:</strong> Software for event coordination</li>
+            <li><strong>Inventory Management:</strong> Equipment and supplies tracking</li>
+            <li><strong>Staff Scheduling:</strong> Seasonal and year-round staff coordination</li>
+            <li><strong>Financial Management:</strong> Accounting and reporting systems</li>
+        </ul>
+
+        <h2>Sustainability and Environmental</h2>
+
+        <h3>Environmental Stewardship</h3>
+        <ul>
+            <li><strong>Nature Partnerships:</strong> Orange County Parks collaboration</li>
+            <li><strong>Educational Components:</strong> Public nature education programs</li>
+            <li><strong>Conservation:</strong> Environmental protection and restoration</li>
+            <li><strong>Local Sourcing:</strong> Support local suppliers and vendors</li>
+        </ul>
+
+        <h3>Sustainable Operations</h3>
+        <ul>
+            <li><strong>Waste Reduction:</strong> Comprehensive recycling programs</li>
+            <li><strong>Energy Efficiency:</strong> Solar panels and efficient systems</li>
+            <li><strong>Water Conservation:</strong> Efficient irrigation and water management</li>
+            <li><strong>Local Partnerships:</strong> Community business support</li>
+        </ul>
+
+        <h2>Risk Management</h2>
+
+        <h3>Safety Protocols</h3>
+        <ul>
+            <li><strong>Activity Safety:</strong> Certified instructors for adventure activities</li>
+            <li><strong>Water Safety:</strong> Lifeguard certification and protocols</li>
+            <li><strong>Emergency Procedures:</strong> Comprehensive emergency response plans</li>
+            <li><strong>Insurance Coverage:</strong> Comprehensive liability and property insurance</li>
+        </ul>
+
+        <h3>Operational Risks</h3>
+        <ul>
+            <li><strong>Weather Contingency:</strong> Indoor alternatives for outdoor activities</li>
+            <li><strong>Staffing Challenges:</strong> Seasonal staff recruitment and retention</li>
+            <li><strong>Maintenance:</strong> Regular facility upkeep and equipment replacement</li>
+            <li><strong>Regulatory Compliance:</strong> Florida camp licensing and safety requirements</li>
+        </ul>
+
+        <div class="action-items">
+            <h4>Action Items</h4>
+            <ol>
+                <li><strong>Service Development:</strong> Create detailed service packages for each market segment</li>
+                <li><strong>Staffing Plan:</strong> Develop comprehensive hiring and training programs</li>
+                <li><strong>Technology Implementation:</strong> Select and implement management systems</li>
+                <li><strong>Safety Protocols:</strong> Establish comprehensive safety and emergency procedures</li>
+            </ol>
+        </div>
+
+        <h2>What I Would Build Next</h2>
+        <ol>
+            <li><strong>Service Menu:</strong> Detailed pricing and package options</li>
+            <li><strong>Staffing Structure:</strong> Organizational chart and job descriptions</li>
+            <li><strong>Operational Procedures:</strong> Standard operating procedures manual</li>
+            <li><strong>Technology Stack:</strong> Complete technology requirements and implementation plan</li>
+        </ol>
+    </div>
+</body>
+</html>
